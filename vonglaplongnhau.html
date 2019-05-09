@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sử dụng vòng lặp while</title>
+</head>
+<body>
+<script>
+	let creat;
+	creat = "<table border='1' width='300' cellspacing='0' cellpadding='3'>"
+	for (i = 1; i <= 10; i++) {
+    	creat = creat + "<tr>";
+    	for (j = 1; j <= 10; j++) 
+    		{
+        	creat = creat + "<td>" + i * j + "</td>";
+    		}
+    	creat = creat + "</tr>";
+		}
+		creat = creat + "</table>";
+		document.write(creat);
+</script>
+</body>
+</html>
